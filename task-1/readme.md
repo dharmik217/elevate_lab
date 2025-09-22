@@ -1,78 +1,46 @@
-🚀 AI & ML Internship - Task 1: Data Cleaning & Preprocessing
-This repository contains the solution for the Elevate Labs AI & ML Internship Task 1, which focuses on data cleaning and preprocessing. The primary objective was to learn how to clean and prepare raw data for a machine learning model.
 
+### 🚀 AI & ML Internship - Task 1: Data Cleaning & Preprocessing
 
-📚 What Was Learned
-During this task, I gained hands-on experience in several crucial data science concepts:
+[cite_start]This repository contains the solution for the Elevate Labs AI & ML Internship Task 1[cite: 3], which focuses on data cleaning and preprocessing. [cite_start]The objective was to learn how to clean and prepare raw data for a machine learning model[cite: 4].
 
+---
 
+### 📚 What Was Learned
 
+[cite_start]During this task, I gained hands-on experience in several crucial data science concepts[cite: 14]:
+* [cite_start]**Data Cleaning:** The process of preparing raw data for ML[cite: 4].
+* [cite_start]**Handling Nulls:** I used imputation methods to handle missing values[cite: 8].
+* [cite_start]**Encoding Categorical Features:** I converted categorical features into numerical ones using encoding[cite: 9].
+* [cite_start]**Feature Scaling:** I applied normalization/standardization to numerical features[cite: 10].
+* [cite_start]**Outlier Detection:** I used boxplots to visualize and identify outliers[cite: 11].
 
-Data Cleaning: The process of fixing or removing incorrect, corrupted, incorrectly formatted, duplicate, or incomplete data within a dataset.
+---
 
+### 🛠️ Tools Used
 
-Handling Nulls: Techniques for managing missing values, such as using imputation methods like mean or median imputation.
+* [cite_start]**Python:** The main programming language used for the task[cite: 5].
+* [cite_start]**Pandas:** A library used for data manipulation and analysis[cite: 5].
+* [cite_start]**NumPy:** A library for numerical operations[cite: 5].
+* [cite_start]**Matplotlib/Seaborn:** Libraries for data visualization, specifically for detecting outliers with boxplots[cite: 5, 11].
+* **Scikit-learn:** A library used for preprocessing pipelines.
 
+---
 
+### 📂 Repository Contents
 
+* `task-1.ipynb`: The main Python notebook/script containing the complete code for data cleaning and preprocessing.
+* `README.md`: This file, explaining the project.
 
-Encoding Categorical Features: Converting categorical features into a numerical format, which is essential for most machine learning algorithms. I used techniques like one-hot encoding.
+---
 
+### 🔍 Interview Questions Covered
 
-
-Feature Scaling: Methods like normalization and standardization to scale numerical features to a standard range, which helps improve model performance.
-
-
-
-
-Outlier Detection: Identifying and handling data points that are significantly different from other observations in the dataset, often done using visualizations like boxplots.
-
-
-
-🛠️ Tools Used
-Python: The main programming language used for the task.
-
-
-Pandas: A library used for data manipulation and analysis.
-
-
-
-NumPy: A library for numerical operations.
-
-
-
-Matplotlib/Seaborn: Libraries for data visualization, specifically for detecting outliers with boxplots.
-
-
-Scikit-learn: A library used for various machine learning tasks, including preprocessing pipelines for imputation and scaling.
-
-📂 Repository Contents
-task1_code.ipynb (or .py): The main Python notebook/script containing the complete code for data cleaning and preprocessing.
-
-titanic.csv: The dataset used for this task. You can use any relevant dataset for the task.
-
-README.md: This file, explaining the project.
-
-output_screenshots/: A folder containing screenshots of the final output (if any).
-
-🔍 Key Concepts Covered
-The task required exploring and understanding several fundamental concepts, including:
-
-
-Missing Data: Different types of missing data and how to handle them.
-
-
-Categorical Variables: Methods for converting categorical data into a usable format for models.
-
-
-Normalization vs. Standardization: The difference between these two feature scaling techniques.
-
-
-Outlier Detection: How to identify outliers in a dataset.
-
-
-Preprocessing Importance: Why preprocessing is a crucial step in the machine learning workflow and how it affects model accuracy.
-
-
-
-One-Hot Encoding vs. Label Encoding: The difference between these two popular encoding techniques.
+[cite_start]The task required understanding and solving several fundamental concepts, which are often asked in interviews[cite: 15]:
+* [cite_start]Different types of missing data[cite: 16].
+* [cite_start]How to handle categorical variables[cite: 17].
+* [cite_start]The difference between normalization and standardization[cite: 18].
+* [cite_start]How to detect outliers[cite: 19].
+* [cite_start]The importance of preprocessing in ML[cite: 20].
+* [cite_start]One-hot encoding vs. label encoding[cite: 21].
+* [cite_start]How to handle data imbalance[cite: 22].
+* [cite_start]How preprocessing can affect model accuracy[cite: 23].
